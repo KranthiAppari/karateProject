@@ -1,0 +1,17 @@
+Allure:
+ Provide Allure dependencies in pom
+ Download Allure Binary from (https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/)
+ and copy it in C drive with Allure folder.
+    Provide the Path till bin in system Path
+ After the TestRunner execution, refresh the project and 'allure-results' folder can be found.
+ Go to Terminal of the project and give 'allure serve'
+
+
+To run the runner file from command line / Terminal
+mvn -Dtest=PracticeRunner test
+
+Jenkins:
+Go to jenkins.war file location and give the following syntax
+C:\Program Files>java -jar jenkins.war or
+C:\Program Files>java -jar jenkins.war --httpPort=9090
+

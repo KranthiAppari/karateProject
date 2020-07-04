@@ -1,0 +1,15 @@
+{
+  "homeButton": "//button[contains(text(),'Home')]",
+  "practiceButton": "//button[contains(text(),'Practice')]",
+  "loginButton": "//button[contains(text(),'Login')]",
+  "signupButton": "//button[contains(text(),'Signup')]",
+  "autocompleteTextBox": "//input[@id='autocomplete']",
+  "radioButton3": "//div[@id='radio-btn-example']//label[3]//input[1]",
+  "radioButton1": "//div[@id='radio-btn-example']//label[1]//input[1]",
+  "alertTextBox": "//input[@id='name']",
+  "alertButton": "//input[@id='alertbtn']",
+  "alertConfirmButton": "//input[@id='confirmbtn']",
+  "dropdownEx": "//select[@id='dropdown-class-example']",
+  "openWindow": "//button[@id='openwindow']",
+  "openTab": "//a[@id='opentab']"
+}
